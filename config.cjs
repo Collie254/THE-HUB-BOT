@@ -21,13 +21,13 @@ const config = {
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN === 'true',
   AUTO_BIO: process.env.AUTO_BIO === 'true',
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === 'true',
-  AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS === 'true',
-  AUTO_STICKER: process.env.AUTO_STICKER === 'true',
-  AUTO_READ: process.env.AUTO_READ === 'true',
+  AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS === 'false',
+  AUTO_STICKER: process.env.AUTO_STICKER === 'false',
+  AUTO_READ: process.env.AUTO_READ === 'false',
   AUTO_TYPING: process.env.AUTO_TYPING === 'true',
   AUTO_RECORDING: process.env.AUTO_RECORDING === 'true',
-  AUTO_REACT: process.env.AUTO_REACT === 'true',
-  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === 'true',
+  AUTO_REACT: process.env.AUTO_REACT === 'false',
+  ALWAYS_ONLINE: process.env.ALWAYS_ONLINE === 'false',
   AUTO_BLOCK: process.env.AUTO_BLOCK !== 'false', // true by default
 
   // 📦 Extra Features
@@ -51,7 +51,7 @@ const config = {
   SUDO_NUMBER: process.env.SUDO_NUMBER || "254725474072",
 
   // 💚 Auto react emoji
-  AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || '💚',
+  AUTOLIKE_EMOJI: process.env.AUTOLIKE_EMOJI || '💚,🇰🇪,😌,💙,❤️,🥀',
   STATUS_READ_MSG: process.env.STATUS_READ_MSG || 'Status Viewed by THE-HUB-BOT',
   WELCOME: process.env.WELCOME === 'true',
 };
